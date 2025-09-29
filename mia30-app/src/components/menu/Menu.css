@@ -2,44 +2,6 @@
   position: relative;
 }
 
-/* Desktop */
-.menu-desktop {
-  display: flex;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 0;
-}
-
-.menu-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  flex: 1;
-}
-
-.menu-item:hover {
-  background-color: #f0f0f0;
-}
-
-.menu-item.active {
-  background-color: #6792c0;
-  color: white;
-}
-
-.menu-icon {
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-}
-
-.menu-label {
-  font-size: 0.9rem;
-}
-
 /* Hamburger-knapp */
 .menu-toggle {
   display: none;
@@ -98,7 +60,7 @@
 }
 
 .menu-item-mobile.active {
-  background-color: #6792c0;
+  background-color: #1f3f61;
   color: white;
 }
 
