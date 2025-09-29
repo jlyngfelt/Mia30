@@ -18,19 +18,6 @@ export const Menu = ({ currentPage, onPageChange }) => {
 
   return (
     <nav className="menu">
-      {/* Desktop meny */}
-      <div className="menu-desktop">
-        {menuItems.map(item => (
-          <button
-            key={item.id}
-            className={`menu-item ${currentPage === item.id ? 'active' : ''}`}
-            onClick={() => handleMenuClick(item.id)}
-          >
-            <span className="menu-label">{item.label}</span>
-          </button>
-        ))}
-      </div>
-
       {/* Mobil hamburger-knapp */}
       <button 
         className="menu-toggle"

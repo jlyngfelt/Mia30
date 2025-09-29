@@ -26,7 +26,7 @@ function App() {
   const renderCurrentPage = () => {
     switch(currentPage) {
       case 'start':
-        return <Start />;
+        return <Start onPageChange={handlePageChange}/>;
       case 'information':
         return <Information />;
       case 'anmalan':
