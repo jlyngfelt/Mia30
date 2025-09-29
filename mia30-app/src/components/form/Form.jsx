@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { supabase } from "../../data/data";
+import './Form.css'
 
 export const Form = () => {
   const [formData, setFormData] = useState({

@@ -1,0 +1,99 @@
+/* Stil för formuläret utan att ändra JSX */
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form h1 {
+  color: #6792c0;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #6792c0;
+  box-shadow: 0 0 8px rgba(103, 146, 192, 0.3);
+  transform: translateY(-1px);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button {
+  background: linear-gradient(135deg, #6792c0, #87CEEB);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(103, 146, 192, 0.3);
+}
+
+form button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(103, 146, 192, 0.4);
+  background: linear-gradient(135deg, #5a7ba3, #7bb8db);
+}
+
+form button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  background: linear-gradient(135deg, #8a8a8a, #b0b0b0);
+}
+
+/* Mobil responsivitet */
+@media (max-width: 768px) {
+  form {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  form h1 {
+    font-size: 1.8rem;
+  }
+}

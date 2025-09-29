@@ -7,7 +7,8 @@ export const Menu = ({ currentPage, onPageChange }) => {
   const menuItems = [
     { id: 'start', label: 'Start'},
     { id: 'information', label: 'Information'},
-    { id: 'anmalan', label: 'Anmälan' }
+    { id: 'anmalan', label: 'Anmälan' },
+    { id: 'admin', label: 'Admin' }
   ]
 
   const handleMenuClick = (pageId) => {
@@ -63,4 +64,3 @@ export const Menu = ({ currentPage, onPageChange }) => {
     </nav>
   )
 }
-
