@@ -1,5 +1,4 @@
-.information-container {
-
+.information-page {
   width: 100vw;
   height: 1000px;
   margin: 0;
@@ -11,4 +10,83 @@
   justify-content: space-between;
 }
 
+.infoContainer {
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 2rem;
+}
 
+.infoContainer h1 {
+  font-weight: 400;
+  font-size: 29px;
+  margin-bottom: 1rem;
+  color:white;
+}
+.infoContainer h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.infoContainer h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+.infoContainer h4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+   padding:1rem 2rem;
+   gap: 0.5rem;
+   margin-bottom: 0;
+ 
+}
+
+
+.white h2, 
+.white h4 {
+  margin: 0;
+  color:black;
+}
+
+.red {
+  background-color:#AC3723;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align:left;
+}
+
+.blue {
+  background-color: #7BA2BF;
+}
+
+.apricot {
+  background-color: #d5af94;
+}
+
+.lightblue.infoContainer {
+  background-color:#9dc7dc;
+}
+
+.lightblue.infoContainer h1,
+.lightblue.infoContainer h4 {
+  color: rgb(70, 69, 69);
+
+}
+
+.amber {
+  background-color: #D6996D;
+}

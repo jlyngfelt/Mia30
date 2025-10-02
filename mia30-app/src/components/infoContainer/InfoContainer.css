@@ -1,0 +1,22 @@
+.InfoContainer {
+  margin: 1rem;
+
+}
+
+.InfoContainer h1 {
+  font-weight: 400;
+  font-size: 29px;
+}
+.InfoContainer h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+}
+.InfoContainer h3 {
+    font-family: Roboto;
+  font-size: 24px;
+}
+.InfoContainer h4 {
+  font-family: Roboto;
+  font-size: 18px;
+}

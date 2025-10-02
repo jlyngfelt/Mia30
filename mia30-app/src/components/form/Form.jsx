@@ -77,7 +77,7 @@ export const Form = () => {
       </div>
 
       <button type="submit" disabled={loading}>
-        {loading ? "Skickar..." : "Anmäl dig"}
+        {loading ? "Skickar..." : "ANMÄL DIG"}
       </button>
     </form>
   );

@@ -35,7 +35,7 @@ export const AdminLogin = () => {
           className="password-input"
         />
         <button onClick={handleLogin} className="login-button">
-          Logga in
+          LOGGA IN
         </button>
       </div>
       <p className="admin-info">
