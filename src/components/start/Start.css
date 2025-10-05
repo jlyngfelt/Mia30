@@ -19,7 +19,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin-top: 20rem; 
+  margin-top: 50vh; 
   bottom: 0;
   background-image: url(/images/berg-bg-small.png);
   background-size: cover;
@@ -32,10 +32,6 @@
   pointer-events: none; */
 }
 
-.marginContainer {
-  margin-top: 100vh; 
-
-}
 
 .textbox {
   margin: 1rem 0;
@@ -78,7 +74,7 @@ h1.big {
 
 h1.celebrate.big {
   text-align: left;
-  margin-top: 10rem;
+  margin-top: 20rem;
   padding: 0.5rem;
   font-weight: 100;
 }
