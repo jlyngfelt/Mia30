@@ -4,17 +4,74 @@
   margin: 0;
   padding: 3rem 0;
   text-align: center;
-
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
+  border-top: 80px solid white;
+  border-radius: 120px;
+}
+
+.mountainContainer {
+  display:flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  background-image: url(/images/berg-bg-small.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 500px;
+  gap:2rem;
+}
+
+.textbox {
+  margin: 1rem 0;
+  display: flex;
+  width: 100vw;
+}
+
+.party-image {
+z-index: 100;
+width: 90vw;
 }
 
 .start-container h1 {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  color: white;
+  font-weight: 200;
+
+}
+
+.start-container h4 {
+ writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin:0;
+  color: white;
+  font-weight: 400;
+  padding:5px;
+  width: 5vw;
 }
 
 .buttonContainer {
   display: flex;
   justify-content: center;
+  gap:1rem;
+}
+
+h1.big {
+  font-size: 3rem;
+  margin-top:0;
+  font-weight: 100;
+  
+}
+
+h1.celebrate.big {
+  text-align: left;
+  margin-top: 10rem;
+  padding:0.5rem;
+  font-weight: 100;
 }
