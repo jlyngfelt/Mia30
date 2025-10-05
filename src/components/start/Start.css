@@ -9,8 +9,8 @@
   flex-direction: column;
   /* justify-content: space-between; */
   background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
-  border-top: 80px solid white;
-  border-radius: 120px 120px 0 0;
+  /* border-top: 80px solid white;
+  border-radius: 120px 120px 0 0; */
 }
 
 .mountainContainer {
