@@ -1,15 +1,16 @@
 .start-container {
   width: 100vw;
-  height: 1000px;
+  min-height: 100vh; 
+  height: auto;
   margin: 0;
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
   background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
   border-top: 80px solid white;
-  border-radius: 120px;
+  border-radius: 120px 120px 0 0;
 }
 
 .mountainContainer {
@@ -17,7 +18,7 @@
   justify-content: center;
     align-items: center;
     flex-direction: column;
-  position: fixed;
+  position: relative; 
   bottom: 0;
   background-image: url(/images/berg-bg-small.png);
   background-size: cover;
