@@ -43,6 +43,9 @@ export const Form = () => {
   };
 
   return (
+<div className="information-page">
+
+
     <form onSubmit={handleSubmit}>
       <h1>OSA till årets fest</h1>
       <div>
@@ -53,7 +56,7 @@ export const Form = () => {
           value={formData.name}
           onChange={handleChange}
           required
-        />
+          />
       </div>
 
       <div>
@@ -62,7 +65,7 @@ export const Form = () => {
           name="information"
           value={formData.information}
           onChange={handleChange}
-        />
+          />
       </div>
 
       <div>
@@ -73,12 +76,15 @@ export const Form = () => {
           value={formData.number_of_persons}
           onChange={handleChange}
           min="1"
-        />
+          />
       </div>
 
       <button type="submit" disabled={loading}>
         {loading ? "Skickar..." : "ANMÄL DIG"}
       </button>
     </form>
+      <div className='mountainContainer'> 
+      </div>
+    </div>
   );
 };

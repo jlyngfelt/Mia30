@@ -1,4 +1,30 @@
-/* Stil för formuläret utan att ändra JSX */
+.information-page {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  z-index: -1;
+  margin: 0;
+  padding: 1rem 0;
+  background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
+}
+
+.mountainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  background-image: url(/images/berg-bg-small.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 500px;
+  gap: 2rem;
+  z-index: 1; 
+  pointer-events: none;
+}
 
 form {
   max-width: 500px;
@@ -10,6 +36,8 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  z-index: 100;
+  position: relative;
 }
 
 form h1 {

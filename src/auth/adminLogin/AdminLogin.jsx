@@ -21,6 +21,8 @@ export const AdminLogin = () => {
   }
 
   return (
+    <div className='background'>
+
     <div className="admin-login-container">
       <h1>🔐 Admin-inloggning</h1>
       <div className="login-form">
@@ -33,7 +35,7 @@ export const AdminLogin = () => {
           onKeyPress={handleKeyPress}
           placeholder="Ange lösenord"
           className="password-input"
-        />
+          />
         <button onClick={handleLogin} className="login-button">
           LOGGA IN
         </button>
@@ -42,5 +44,6 @@ export const AdminLogin = () => {
         Endast administratörer kan komma åt denna sida.
       </p>
     </div>
+          </div>
   )
 }

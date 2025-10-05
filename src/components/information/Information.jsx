@@ -5,6 +5,7 @@ export const Information = () => {
   return (
     <div className="information-page">
 
+
 <div className="red infoContainer">
   <section>
   <h1>Information</h1>
@@ -38,6 +39,8 @@ export const Information = () => {
     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eius culpa laborum id soluta error omnis mollitia libero nemo odit, pariatur minus beatae commodi asperiores voluptatum corrupti ut nostrum autem.</h4>
   </div>
 
+  <div className='mountainContainer'> 
+      </div>
     </div>
   );
 };

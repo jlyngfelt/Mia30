@@ -1,3 +1,13 @@
+.background {
+  background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  z-index: -1;
+  margin: 0;
+  padding: 1rem 0;
+}
+
 .admin-login-container {
   max-width: 400px;
   margin: 6rem 1rem;
@@ -5,12 +15,12 @@
   text-align: center;
   background-color: #f8f9fa;
   border-radius: 10px;
-  border:1px solid rgb(149, 147, 147);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1px solid rgb(149, 147, 147);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .admin-login-container h1 {
-  color: #AC3723;
+  color: #ac3723;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
@@ -24,14 +34,14 @@
 
 .login-form label {
   text-align: left;
-   color: #333;
+  color: #333;
   font-size: 1.3rem;
   font-weight: 400;
   font-family: Roboto;
 }
 
 .password-input {
-   padding: 0.75rem;
+  padding: 0.75rem;
   border: 2px solid #ddd;
   border-radius: 8px;
   font-size: 1.2rem;
@@ -41,14 +51,14 @@
 }
 
 .password-input:focus {
-    outline: none;
+  outline: none;
   border-color: #6b8eb5;
   box-shadow: 0 0 8px rgba(103, 146, 192, 0.3);
   transform: translateY(-1px);
 }
 
 .login-button {
- cursor: pointer;
+  cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 1rem;
   box-shadow: 0 4px 10px rgba(103, 146, 192, 0.3);
@@ -76,4 +86,3 @@
   font-style: italic;
   margin: 0;
 }
-
