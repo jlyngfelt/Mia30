@@ -1,6 +1,6 @@
 import './Start.css';
 import { MainButton } from '../buttons/MainButton';
-import partyImage from '../../../public/images/mia-9x16-gif2-6.1.gif'
+import partyImage from '../../../public/images/mia-9x16-gif3-3.3.gif'
 
 export const Start = ({onPageChange}) => {
   return (
