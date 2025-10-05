@@ -74,7 +74,14 @@ border-bottom: none;
 
 .menu-item-mobile .menu-label {
   font-size: 1rem;
- 
+}
+
+.menu-label.active {
+  color:#333;
+
+}
+.menu-label.active {
+  color:#eee;
 }
 
 
