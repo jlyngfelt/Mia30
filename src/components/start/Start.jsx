@@ -5,7 +5,7 @@ import partyImage from '../../../public/images/mia-9x16-gif3-3.3.gif'
 export const Start = ({onPageChange}) => {
   return (
     <div className="start-container">
-    <img src={partyImage} alt="Fest" className="party-image" />
+    {/* <img src={partyImage} alt="Fest" className="party-image" /> */}
 
       <div className='buttonContainer'>
       <MainButton pageId="information" onPageChange={onPageChange}>
