@@ -5,10 +5,10 @@ export const Menu = ({ currentPage, onPageChange }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const menuItems = [
-    { id: 'start', label: 'Start'},
-    { id: 'information', label: 'Information'},
-    { id: 'anmalan', label: 'Anmälan' },
-    { id: 'admin', label: 'Admin' }
+    { id: 'start', label: 'START'},
+    { id: 'information', label: 'INFORMATION'},
+    { id: 'anmalan', label: 'ANMÄLAN' },
+    { id: 'admin', label: 'ADMIN' }
   ]
 
   const handleMenuClick = (pageId) => {

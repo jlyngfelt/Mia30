@@ -63,7 +63,7 @@ border-bottom: none;
 }
 
 .menu-item-mobile.active {
-  background-color: #34608e;
+  background-color: #AC3723;
   color: white;
 }
 
@@ -73,8 +73,10 @@ border-bottom: none;
 }
 
 .menu-item-mobile .menu-label {
-  font-size: 1.5rem;
+  font-size: 1rem;
+ 
 }
+
 
 .menu-overlay {
   position: fixed;
