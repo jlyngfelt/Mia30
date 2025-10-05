@@ -58,6 +58,10 @@
   border-bottom: 1px solid #eee;
 }
 
+.menu-item-mobile:last-child {
+border-bottom: none;
+}
+
 .menu-item-mobile.active {
   background-color: #34608e;
   color: white;
