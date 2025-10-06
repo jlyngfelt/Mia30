@@ -1,16 +1,14 @@
 .start-container {
   width: 100vw;
-  min-height: 120vh;
+  min-height: 100vh;
   height: auto;
   margin: 0;
   padding: 3rem 0 0 0;
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   background: linear-gradient(to bottom, #ebc1a3 30%, #90b4c7 70%);
-  /* border-top: 80px solid white;
-  border-radius: 120px 120px 0 0; */
+  position: relative;
 }
 
 .mountainContainer {
@@ -18,9 +16,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  margin-top: 50vh; 
+  position: fixed;
   bottom: 0;
+  left: 0;
   background-image: url(/images/berg-bg-small.png);
   background-size: cover;
   background-position: bottom;
@@ -28,15 +26,21 @@
   width: 100vw;
   height: 500px;
   gap: 2rem;
-  /* z-index: -1; 
-  pointer-events: none; */
+  z-index: 1;
+  pointer-events: none;
 }
 
+.divBox {
+  height: 30rem;
+  position: relative;
+}
 
 .textbox {
   margin: 1rem 0;
   display: flex;
   width: 100vw;
+  position: relative;
+  z-index: 10;
 }
 
 .party-image {
@@ -48,6 +52,8 @@
   margin-top: 2rem;
   color: white;
   font-weight: 200;
+  position: relative;
+  z-index: 10;
 }
 
 .start-container h4 {
@@ -64,6 +70,9 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 3rem;
 }
 
 h1.big {
@@ -74,7 +83,9 @@ h1.big {
 
 h1.celebrate.big {
   text-align: left;
-  margin-top: 20rem;
   padding: 0.5rem;
+  margin: 2rem 0;
   font-weight: 100;
+  position: relative;
+  z-index: 10;
 }
