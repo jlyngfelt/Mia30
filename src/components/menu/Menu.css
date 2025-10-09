@@ -83,6 +83,9 @@ border-bottom: none;
 .menu-label.active {
   color:#eee;
 }
+.menu-label {
+  color:black;
+}
 
 
 .menu-overlay {
