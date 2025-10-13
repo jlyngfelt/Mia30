@@ -6,7 +6,6 @@ export const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
     information: "",
-    number_of_persons: 1,
     phone: "",
     extra_day: false,
   });
@@ -27,7 +26,6 @@ export const Form = () => {
       setFormData({
         name: "",
         information: "",
-        number_of_persons: 1,
         phone: "",
         extra_day: false,
       });
@@ -84,7 +82,7 @@ export const Form = () => {
           />
       </div>
 
-      <div>
+      {/* <div>
         <label>Antal personer:</label>
         <input
           type="number"
@@ -93,7 +91,7 @@ export const Form = () => {
           onChange={handleChange}
           min="1"
           />
-      </div>
+      </div> */}
 
       <div>
         <label>
