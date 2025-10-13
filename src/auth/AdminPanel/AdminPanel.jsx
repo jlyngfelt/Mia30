@@ -72,8 +72,10 @@ export const AdminPanel = () => {
       <thead>
         <tr className="table-header">
           <th>Namn</th>
+          <th>Telefon</th>
           <th>Information</th>
           <th>Antal</th>
+          <th>Extra dag</th>
           <th>Anmäld</th>
         </tr>
       </thead>
@@ -81,8 +83,10 @@ export const AdminPanel = () => {
         {anmalningar.map((anmalan) => (
           <tr key={anmalan.id}>
             <td>{anmalan.name}</td>
+            <td>{anmalan.phone || '-'}</td>
             <td class="info">{anmalan.information || '-'}</td>
             <td>{anmalan.number_of_persons}</td>
+            <td>{anmalan.extra_day ? 'Ja' : 'Nej'}</td>
             <td>{new Date(anmalan.created_at).toLocaleDateString('sv-SE')}</td>
             
               <button 

@@ -7,6 +7,8 @@ export const Form = () => {
     name: "",
     information: "",
     number_of_persons: 1,
+    phone: "",
+    extra_day: false,
   });
   const [loading, setLoading] = useState(false);
 
@@ -26,6 +28,8 @@ export const Form = () => {
         name: "",
         information: "",
         number_of_persons: 1,
+        phone: "",
+        extra_day: false,
       });
     } catch (error) {
       console.error("Fel vid anmälan:", error);
@@ -36,9 +40,10 @@ export const Form = () => {
   };
 
   const handleChange = (e) => {
+    const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [e.target.name]: value,
     });
   };
 
@@ -60,7 +65,18 @@ export const Form = () => {
       </div>
 
       <div>
-        <label>Information:</label>
+        <label>Telefonnummer:</label>
+        <input
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          required
+          />
+      </div>
+
+      <div>
+        <label>Information / allergier:</label>
         <textarea
           name="information"
           value={formData.information}
@@ -77,6 +93,18 @@ export const Form = () => {
           onChange={handleChange}
           min="1"
           />
+      </div>
+
+      <div>
+        <label>
+          <input
+            type="checkbox"
+            name="extra_day"
+            checked={formData.extra_day}
+            onChange={handleChange}
+            />
+          Jag kommer på fredag också!
+        </label>
       </div>
 
       <button type="submit" disabled={loading}>
