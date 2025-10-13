@@ -28,7 +28,7 @@
 
 form {
   max-width: 500px;
-  margin: 6rem 1rem;
+  margin: 2rem 1rem;
   padding: 1.5rem;
   background-color: #7BA2BF;
   border-radius: 15px;
@@ -129,4 +129,30 @@ label {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.infoContainer {
+  margin: 6rem;
+  border-radius: 20px;
+  padding: 2rem;
+  z-index: 100;
+  position: relative;
+}
+
+.infoContainer h1 {
+  font-weight: 400;
+  font-size: 29px;
+  margin-bottom: 1rem;
+  color: white;
+}
+.infoContainer h4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.amber {
+  background-color: #d6996d;
 }

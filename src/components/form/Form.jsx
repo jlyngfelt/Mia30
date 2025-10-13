@@ -48,6 +48,11 @@ export const Form = () => {
   return (
 <div className="information-page">
 
+    <div className="amber infoContainer">
+    <h1>Glöm inte!!!</h1>
+    <h4>Att fylla i formuläret för varje person som kommer, även om det är en +1</h4>
+  </div>
+
 
     <form onSubmit={handleSubmit}>
       <h1>OSA till årets fest</h1>
