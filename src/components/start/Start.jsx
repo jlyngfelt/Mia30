@@ -12,7 +12,7 @@ export const Start = ({onPageChange}) => {
         <img src="/images/mia-9x16-gif3-3.3.gif" alt="Party-gif" className="party-image"/>
       </div>
       
-      <h1 className='big celebrate'>Mia fyller 30 & jävlar vad det ska firas</h1>
+      <h1 className='big celebrate'>Mia Westh bjuder in till 30-årsfest!</h1>
       
       <div className='buttonContainer'>
         <MainButton pageId="information" onPageChange={onPageChange}>

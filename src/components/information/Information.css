@@ -84,7 +84,8 @@
   align-items: flex-end;
   justify-content: space-between;
   text-align: left;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
+  padding-top: 7px;
 }
 
 .blue {
@@ -97,6 +98,11 @@
 
 .lightblue.infoContainer {
   background-color: #9dc7dc;
+}
+
+.transparent {
+  background-color: transparent;
+  padding-bottom:0;
 }
 
 .lightblue.infoContainer h1,
