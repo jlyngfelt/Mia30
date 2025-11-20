@@ -21,7 +21,7 @@ export const Information = () => {
           </h3>
         </section>
         <div className="white infoContainer">
-          <h4>16:00</h4>
+          <h4>17:00</h4>
           <h2>6 juni</h2>
           <h4>2026</h4>
         </div>
@@ -70,7 +70,7 @@ export const Information = () => {
         <h4>
           Om festsuget är alldeles för stort vid ankomst kan det kännas olidligt
           att behöva vänta ända till lördagen för att rulla hatt. Men frukta
-          icke! Självklart bjuds det in till uppladdning och förfest fredag
+          icke! Självklart bjuds det in till uppladdning och förfest fredag (5/6)
           kväll. Bar och mat kommer att erbjudas även här. Mer info kommer. Men
           glöm för tusan inte att OSA även till fredagen i formuläret!
         </h4>

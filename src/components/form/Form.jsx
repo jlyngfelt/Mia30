@@ -49,8 +49,9 @@ export const Form = () => {
 <div className="information-page">
 
     <div className="amber infoContainer">
-    <h1>Glöm inte!!!</h1>
-    <h4>Att fylla i formuläret för varje person som kommer, även om det är en +1</h4>
+    <h1>OSA senast 1/4</h1>
+    <h3>OBS!</h3>
+    <h4>Fyll i formuläret för varje person som kommer, även om det är en +1</h4>
   </div>
 
 
