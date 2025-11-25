@@ -9,6 +9,24 @@ body {
   font-family: 'Roboto';
 }
 
+.app {
+  min-height: 100vh;
+}
+
+.app__mobile {
+  min-height: 100vh;
+}
+
+.app__desktop-blocker {
+  display: none;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 button {
   font-family: 'Roboto';
   letter-spacing: 2px;
@@ -16,4 +34,14 @@ button {
 
 h1 {
   font-family: 'Instrument Serif';
+}
+
+@media (min-width: 768px) {
+  .app__mobile {
+    display: none;
+  }
+
+  .app__desktop-blocker {
+    display: flex;
+  }
 }

@@ -39,12 +39,18 @@ function App() {
   };
 
   return (
-    <>
-      <Menu currentPage={currentPage} onPageChange={handlePageChange} />
-      
-      {/* Main content based on current page */}
-      {renderCurrentPage()}
-    </>
+    <div className="app">
+      <div className="app__mobile">
+        <Menu currentPage={currentPage} onPageChange={handlePageChange} />
+        
+        {/* Main content based on current page */}
+        {renderCurrentPage()}
+      </div>
+
+      <div className="app__desktop-blocker">
+        <p>Open on mobile instead</p>
+      </div>
+    </div>
   );
 }
 
