@@ -48,7 +48,7 @@ function App() {
       </div>
 
       <div className="app__desktop-blocker">
-        <p>Open on mobile instead</p>
+        <p>Öppna på mobilen istället</p>
       </div>
     </div>
   );
